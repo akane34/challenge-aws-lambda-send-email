@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>challenge.cloud.email</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="2.0.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="2.0.0" />
+    <PackageReference Include="Amazon.Lambda.SNSEvents" Version="2.0.0" />
+    <PackageReference Include="AWSSDK.CognitoIdentity" Version="3.7.0.16" />
+    <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.0.17" />
+    <PackageReference Include="AWSSDK.SimpleEmail" Version="3.7.0.19" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+
+</Project>
